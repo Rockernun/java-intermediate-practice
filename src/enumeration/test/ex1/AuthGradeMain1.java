@@ -6,8 +6,8 @@ public class AuthGradeMain1 {
         AuthGrade[] grades = AuthGrade.values();
         for (AuthGrade grade : grades) {
             System.out.println("grade=" + grade.name() + ", level=" +
-                    grade.getLevel(grade) + ", description=" +
-                    grade.getDescription(grade));
+                    grade.getLevel() + ", description=" +
+                    grade.getDescription());
         }
     }
 }

@@ -14,11 +14,11 @@ public enum AuthGrade {
         this.description = description;
     }
 
-    public int getLevel(AuthGrade grade) {
+    public int getLevel() {
         return level;
     }
 
-    public String getDescription(AuthGrade grade) {
+    public String getDescription() {
         return description;
     }
 }
