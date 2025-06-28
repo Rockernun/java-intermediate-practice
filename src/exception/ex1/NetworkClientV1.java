@@ -27,6 +27,7 @@ public class NetworkClientV1 {
     public String send(String data) {
         if (sendError) {
             System.out.println(address + " 서버에 데이터 전송 실패: " + data);
+            return "sendError...";
         }
         System.out.println(address + " 서버에 데이터 전송: " + data);
         return "Success";
