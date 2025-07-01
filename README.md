@@ -8,3 +8,4 @@
 6. [중첩 클래스, 내부 클래스 Part.1](https://velog.io/@rocker_nun/%EC%A4%91%EC%B2%A9-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4-Part.1)
 7. [중첩 클래스, 내부 클래스 Part.2](https://velog.io/@rocker_nun/%EC%A4%91%EC%B2%A9-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4-Part.2)
 8. [예외 처리1 - 이론](https://velog.io/@rocker_nun/%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC1-%EC%9D%B4%EB%A1%A0)
+9. [예외 처리2 - 실습](https://velog.io/@rocker_nun/%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC2-%EC%8B%A4%EC%8A%B5)
