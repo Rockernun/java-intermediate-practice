@@ -3,7 +3,7 @@ package collection.set;
 public class MyHashSetV1Main {
     public static void main(String[] args) {
 
-        MyHashSetV1 set = new MyHashSetV1();
+        MyHashSetV1 set = new MyHashSetV1(10);
         set.add(1);
         set.add(2);
         set.add(5);
@@ -27,8 +27,8 @@ public class MyHashSetV1Main {
 }
 
 /*
-MyHashSetV1{buckets=[[], [1], [2], [99], [], [5], [], [], [8], [9], [], [], [], [], [14], []], size=7}
+MyHashSetV1{buckets=[[], [1], [2], [], [14], [5], [], [], [8], [99, 9]], size=7}
 set.contains(9) = true
 removeResult = true
-MyHashSetV1{buckets=[[], [1], [2], [99], [], [5], [], [], [8], [], [], [], [], [], [14], []], size=6}
+MyHashSetV1{buckets=[[], [1], [2], [], [14], [5], [], [], [8], [99]], size=6}
 */
