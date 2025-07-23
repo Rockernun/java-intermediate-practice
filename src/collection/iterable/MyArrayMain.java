@@ -13,11 +13,22 @@ public class MyArrayMain {
             Integer value = iterator.next();
             System.out.println("value = " + value);
         }
+
+        System.out.println("for-each 사용");
+        for (int value : myArr) {
+            System.out.println("value = " + value);
+        }
     }
 }
 
 /*
 iterator 사용...
+value = 1
+value = 2
+value = 3
+value = 4
+
+for-each 사용
 value = 1
 value = 2
 value = 3
